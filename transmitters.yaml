@@ -1,0 +1,25 @@
+"ASR-11":
+  Pt : 0.025e6  # MW - Assuming low end of transmit power - https://en.wikipedia.org/wiki/ASR-11
+  Gt : 34       # dB - https://nssl.noaa.gov/publications/mpar_reports/Comparisons_of_weather_and_aircraft_surveillance_radar_6b_nc.doc
+  Fc : 2.8e9    # Hz - https://en.wikipedia.org/wiki/ASR-11
+  Tau : 1e-6    # Pulse width - https://en.wikipedia.org/wiki/ASR-11
+# https://www.everythingrf.com/community/what-is-an-airport-surveillance-radar-asr-system
+
+"WSR-88D":
+  Pt: 0.475e6  # https://nssl.noaa.gov/publications/mpar_reports/Comparisons_of_weather_and_aircraft_surveillance_radar_6b_nc.doc
+  Gt: 45       # https://nssl.noaa.gov/publications/mpar_reports/Comparisons_of_weather_and_aircraft_surveillance_radar_6b_nc.doc
+  Fc: 2.85e9   # https://nssl.noaa.gov/publications/mpar_reports/Comparisons_of_weather_and_aircraft_surveillance_radar_6b_nc.doc
+  Tau: 1.57e-6 # https://nssl.noaa.gov/publications/mpar_reports/Comparisons_of_weather_and_aircraft_surveillance_radar_6b_nc.doc
+
+"KVCR-DT":
+  # https://www.rabbitears.info/market.php?request=print_station&facility_id=58795
+  Pt: 9.22e3
+  Gt: 4.47
+  Fc: 80e6
+  
+"ASOS":
+  # https://en.wikipedia.org/wiki/Automated_airport_weather_station
+  # Updated every minute
+  # https://www.weather.gov/asos/
+
+  

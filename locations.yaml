@@ -1,0 +1,15 @@
+# Altitudes from https://en-gb.topographic-map.com/map-4d9jnh/The-World/?center=34.02094%2C-117.4478&popup=34.03353%2C-117.44226
+"ONT Airport":
+  "LLA": [34.052724, -117.596634, 282]
+"Foothills":
+  "LLA": [34.164961, -117.575604, 694]
+"Jurupa Hills":
+  "LLA": [33.996644, -117.440131, 419]
+"Mount Jurupa":
+  "LLA": [34.032813, -117.442434, 673]
+"Elephant Hill":
+  "LLA": [34.043048, -117.787418, 418] # Might have too low elevation angle
+"Potato Mountain Trailhead":
+  "LLA": [34.163087, -117.682117, 708]
+"Clairemont Hills": # 30 minute drive, Trailhead is like only 1000 feet away too! at 34.136430, -117.728298
+  "LLA": [34.141722, -117.729181, 650]

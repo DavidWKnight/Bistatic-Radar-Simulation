@@ -1,0 +1,40 @@
+"Airbus A380":
+  RCS: 100 # m^2 - https://letstalkscience.ca/educational-resources/backgrounders/strange-shapes-in-sky-stealth-and-flying-wings
+  # A5
+"Boeing 737":
+  RCS: 11 # m^2 - https://letstalkscience.ca/educational-resources/backgrounders/strange-shapes-in-sky-stealth-and-flying-wings
+  # A3
+# Radar Detectability of Light Aircraft - Table 1-4
+"Cherokee 140":
+  RCS: 3.0 # m^2 - Nose 5.1, 20-70deg 2.5,  110-160deg 2.2, tail 3.0
+  # A1
+"Cessna C172":
+  RCS: 6 # m^2 - Nose 8.9, 20-70deg 7.3,  110-160deg 6.5, tail 4.8
+  # A1
+"Cessna 177":
+  RCS: 3 # m^2 - Nose 5.4, 20-70deg 2.4,  110-160deg 1.5, tail 1.3
+  # A1
+"C130": # C130 RCS.pdf page 6 @ 2800MHz
+  RCS: 20 # m^2 - Nose 15, starboard 15, tail 25
+  # A3
+
+# https://en.wikipedia.org/wiki/Radar_cross_section
+
+# https://www.adsbexchange.com/emitter-category-ads-b-do-260b-2-2-3-2-5-2/
+# ICAO lookup - https://www.airframes.org/
+"A0": # Unknown aircraft
+  RCS: 0
+"A1": # Examples include Cessna C172
+  RCS: 4
+"A2": # Kind interpolating between A1 and A3
+  RCS: 7
+"A3": # Example includes Boeing 737
+  RCS: 11
+"A4": # Boeing 757
+  RCS: 20
+"A5": # A380 size
+  RCS: 100
+"A6": # Military Aircraft
+  RCS: 0 # Don't track military aircraft
+"A7": # Helicopters
+  RCS: 1

@@ -1,0 +1,19 @@
+"HackRF One": # https://greatscottgadgets.com/hackrf/one/
+  T: 270 # Celcius
+  F: 11 # dB - Making up a number
+  BW: 200e6 # Hz - Bandwidth, really depends more on incoming signal
+"Pluto SDR": # https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/adalm-pluto.html
+  T: 270 # Celcius
+  F: 2.5 # Db - https://wiki.analog.com/university/tools/pluto/users/receiver_sensitivity
+  BW: 10e6 # Hz - Bandwidth, really depends more on incoming signal
+"LimeSDR": # https://limemicro.com/boards/limesdr/
+  T: 270 # Celcius
+  F: 2.5 # dB - @ 2GHz - https://raw.githubusercontent.com/myriadrf/LMS7002M-docs/master/LMS7002M-DataSheet-2-2r0.pdf
+  BW: 200e6 # Hz - Bandwidth, really depends more on incoming signal
+
+# Out of range for ASR transmit signal
+# "RTL-SDR":
+#   T: 270 # Celcius
+#   F: 
+#   BW: 200e6 # Hz - Bandwidth, really depends more on incoming signal
+
